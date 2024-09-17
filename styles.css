@@ -1,0 +1,29 @@
+.container{
+    width:89%;
+    height: auto;
+    display: grid;
+    grid-template-columns:202px 202px 202px 202px;
+    gap: 5px;
+    margin: 0 auto;
+    padding: 15px;
+    border:1px solid coral;
+}
+
+.card-column-wrapper{
+    display: grid;
+}
+
+.card-big img{
+width: 202px;
+height: 300px;
+}
+
+.card-middle img{
+    width: 202px;
+    height: 200px;
+}
+
+.card-small img{
+    width: 202px;
+    height: 150px;
+}
